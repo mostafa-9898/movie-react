@@ -13,6 +13,7 @@ import Tv from "./pages/Tv"
 import Details from "./pages/Details";
 
 function App() {
+  document.title = "Movie"
   return (
     <ColorContextProvider>
       <Paper variant="elevation" elevation={4}
